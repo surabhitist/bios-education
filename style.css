@@ -672,6 +672,15 @@ body {
     justify-content: center;
     background-color: var(--secondary);
   }
+
+  .centr {
+    text-align: center;
+  }
+
+  .img-download {
+    width: 50%;
+    padding: 20px;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -1357,6 +1366,15 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--secondary);
+  }
+
+  .centr {
+    text-align: center;
+  }
+
+  .img-download {
+    width: 50%;
+    padding: 20px;
   }
 }
 
@@ -2049,6 +2067,15 @@ body {
     justify-content: center;
     background-color: var(--secondary);
   }
+
+  .centr {
+    text-align: center;
+  }
+
+  .img-download {
+    width: 50%;
+    padding: 20px;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -2737,6 +2764,15 @@ body {
     justify-content: center;
     background-color: var(--secondary);
   }
+
+  .centr {
+    text-align: center;
+  }
+
+  .img-download {
+    width: 50%;
+    padding: 20px;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -3416,5 +3452,14 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--secondary);
+  }
+
+  .centr {
+    text-align: center;
+  }
+
+  .img-download {
+    width: 50%;
+    padding: 20px;
   }
 }

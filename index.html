@@ -301,22 +301,29 @@
     <div class="primary-line"></div>
     <div class="primary-line"></div>
 
-    <section class="materials-section">
+    <!-- <section class="materials-section">
       <div class="materials-title-div">
         <h2 class="materials-title">Free Study Materials</h2>
       </div>
+
       <div class="orange-bg">
         <div class="dwn-notes">
           <img src="images/notes.png" alt="" class="img-notes" />
-          <button class="btn-dwn">DOWNLOAD NOTES</button>
+          <a href="files/notes.pdf" download class="btn-dwn">
+            DOWNLOAD NOTES
+          </a>
         </div>
+
         <div class="dwn-ppt">
           <img src="images/ppt.png" alt="" class="img-ppts" />
-          <button class="btn-dwn">DOWNLOAD PPTs</button>
+          <a href="files/ppt.pptx" download class="btn-dwn"> DOWNLOAD PPTs </a>
         </div>
+
         <div class="dwn-books">
           <img src="images/ebook.png" alt="" class="img-books" />
-          <button class="btn-dwn">DOWNLOAD E-BOOKS</button>
+          <a href="files/ebooks.pdf" download class="btn-dwn">
+            DOWNLOAD E-BOOKS
+          </a>
         </div>
       </div>
     </section>
@@ -327,18 +334,83 @@
       <div class="materials-title-div">
         <h2 class="materials-title">Free Study Materials</h2>
       </div>
+
       <div class="orange-bg-phone">
         <div class="dwn-notes">
           <img src="images/notes.png" alt="" class="img-notes" />
-          <button class="btn-dwn">DOWNLOAD NOTES</button>
+          <a href="files/notes.pdf" download class="btn-dwn">
+            DOWNLOAD NOTES
+          </a>
         </div>
+
         <div class="dwn-ppt">
           <img src="images/ppt.png" alt="" class="img-ppts" />
-          <button class="btn-dwn">DOWNLOAD PPTs</button>
+          <a href="files/ppt.pptx" download class="btn-dwn"> DOWNLOAD PPTs </a>
         </div>
+
         <div class="dwn-books">
           <img src="images/ebook.png" alt="" class="img-books" />
-          <button class="btn-dwn">DOWNLOAD E-BOOKS</button>
+          <a href="files/ebooks.pdf" download class="btn-dwn">
+            DOWNLOAD E-BOOKS
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="materials-section">
+      <div class="materials-title-div">
+        <h2 class="materials-title">Free Study Materials</h2>
+      </div>
+
+      <div class="orange-bg">
+        <div class="dwn-notes">
+          <img src="images/notes.png" alt="" class="img-notes" />
+          <!-- <a href="#" class="btn-dwn"> DOWNLOAD NOTES </a> -->
+          <button class="btn-dwn" onclick="openNotes()">DOWNLOAD NOTES</button>
+        </div>
+
+        <div class="dwn-ppt">
+          <img src="images/ppt.png" alt="" class="img-ppts" />
+          <!-- <a href="#" class="btn-dwn"> DOWNLOAD PPTs </a> -->
+          <button class="btn-dwn" onclick="openPpt()">DOWNLOAD PPTs</button>
+        </div>
+
+        <div class="dwn-books">
+          <img src="images/ebook.png" alt="" class="img-books" />
+          <!-- <a href="#" class="btn-dwn"> DOWNLOAD E-BOOKS </a> -->
+          <button class="btn-dwn" onclick="openBooks()">
+            DOWNLOAD E-BOOKS
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="primary-line"></div>
+    <div class="secondary-line"></div>
+    <div class="secondary-line"></div>
+    <section class="materials-section-phone">
+      <div class="materials-title-div">
+        <h2 class="materials-title">Free Study Materials</h2>
+      </div>
+
+      <div class="orange-bg-phone">
+        <div class="dwn-notes">
+          <img src="images/notes.png" alt="" class="img-notes" />
+          <!-- <a href="#" class="btn-dwn"> DOWNLOAD NOTES </a> -->
+          <button class="btn-dwn" onclick="openNotes()">DOWNLOAD NOTES</button>
+        </div>
+
+        <div class="dwn-ppt">
+          <img src="images/ppt.png" alt="" class="img-ppts" />
+          <!-- <a href="#" class="btn-dwn"> DOWNLOAD PPTs </a> -->
+          <button class="btn-dwn" onclick="openPpt()">DOWNLOAD PPTs</button>
+        </div>
+
+        <div class="dwn-books">
+          <img src="images/ebook.png" alt="" class="img-books" />
+          <!-- <a href="#" class="btn-dwn"> DOWNLOAD E-BOOKS </a> -->
+          <button class="btn-dwn" onclick="openBooks()">
+            DOWNLOAD E-BOOKS
+          </button>
         </div>
       </div>
     </section>
