@@ -681,6 +681,83 @@ body {
     width: 50%;
     padding: 20px;
   }
+
+  .team-section {
+    background-color: var(--primary);
+    padding-top: 30px;
+  }
+
+  .team-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+  .parents-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+
+  .team-ul {
+    font-size: larger;
+    line-height: 1.8;
+    list-style-type: none;
+  }
+
+  .team-ul-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .thanks-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-title {
+    text-decoration: underline;
+  }
+
+  .thanks-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-content {
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+    margin-left: -20px;
+  }
+
+  .special-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-title {
+    text-decoration: underline;
+  }
+
+  .special-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-content {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -1375,6 +1452,83 @@ body {
   .img-download {
     width: 50%;
     padding: 20px;
+  }
+
+  .team-section {
+    background-color: var(--primary);
+    padding-top: 30px;
+  }
+
+  .team-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+  .parents-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+
+  .team-ul {
+    font-size: larger;
+    line-height: 1.8;
+    list-style-type: none;
+  }
+
+  .team-ul-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .thanks-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-title {
+    text-decoration: underline;
+  }
+
+  .thanks-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-content {
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+    margin-left: -20px;
+  }
+
+  .special-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-title {
+    text-decoration: underline;
+  }
+
+  .special-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-content {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -2076,6 +2230,83 @@ body {
     width: 50%;
     padding: 20px;
   }
+
+  .team-section {
+    background-color: var(--primary);
+    padding-top: 30px;
+  }
+
+  .team-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+  .parents-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+
+  .team-ul {
+    font-size: larger;
+    line-height: 1.8;
+    list-style-type: none;
+  }
+
+  .team-ul-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .thanks-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-title {
+    text-decoration: underline;
+  }
+
+  .thanks-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-content {
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+    margin-left: -20px;
+  }
+
+  .special-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-title {
+    text-decoration: underline;
+  }
+
+  .special-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-content {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -2773,6 +3004,83 @@ body {
     width: 50%;
     padding: 20px;
   }
+
+  .team-section {
+    background-color: var(--primary);
+    padding-top: 30px;
+  }
+
+  .team-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+  .parents-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+
+  .team-ul {
+    font-size: larger;
+    line-height: 1.8;
+    list-style-type: none;
+  }
+
+  .team-ul-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .thanks-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-title {
+    text-decoration: underline;
+  }
+
+  .thanks-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-content {
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+    margin-left: -20px;
+  }
+
+  .special-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-title {
+    text-decoration: underline;
+  }
+
+  .special-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-content {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -3461,5 +3769,81 @@ body {
   .img-download {
     width: 50%;
     padding: 20px;
+  }
+
+  .team-section {
+    background-color: var(--primary);
+  }
+
+  .team-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+  .parents-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-title {
+    text-decoration: underline;
+  }
+
+  .team-ul {
+    font-size: larger;
+    line-height: 1.8;
+    list-style-type: none;
+  }
+
+  .team-ul-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .thanks-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-title {
+    text-decoration: underline;
+  }
+
+  .thanks-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thanks-content {
+    list-style-type: none;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+    margin-left: -20px;
+  }
+
+  .special-title-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-title {
+    text-decoration: underline;
+  }
+
+  .special-content-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-content {
+    display: flex;
+    justify-content: center;
   }
 }
