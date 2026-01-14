@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BIOS Education</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
@@ -195,22 +196,23 @@
               <ul class="vision-content-ul3">
                 <li>
                   Provide quality education for school and competitive exams
-                  like NEET, JEE, NDA, SSC, and CBSE
+                  like NEET, JEE, NDA, SSC, and CBSE.
                 </li>
                 <li>
                   Support students who are struggling in any subject, ensuring
-                  no student is left behind
+                  no student is left behind.
                 </li>
                 <li>
                   Foster confidence, leadership, and communication skills
-                  through personality development programs
+                  through personality development programs.
                 </li>
                 <li>
-                  Encourage creativity, critical thinking, and lifelong learning
+                  Encourage creativity, critical thinking, and lifelong
+                  learning.
                 </li>
                 <li>
                   Build a system where effort and perseverance matter more than
-                  failure or fear
+                  failure or fear.
                 </li>
               </ul>
             </li>
@@ -290,7 +292,9 @@
         </div>
       </div>
       <div class="images-button-div">
-        <button class="images-button">MORE IMAGES</button>
+        <button class="images-button" onclick="openGallery()">
+          MORE IMAGES
+        </button>
       </div>
     </section>
     <div class="secondary-line"></div>
@@ -362,20 +366,33 @@
         </div>
         <div class="join-form-div">
           <div>
-            <form class="join-form">
+            <form class="join-form" id="joinForm">
               <div class="field">
                 <label>Name</label>
-                <input type="text" placeholder="Enter your name" />
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Enter your name"
+                />
               </div>
 
               <div class="field">
                 <label>Email</label>
-                <input type="email" placeholder="Enter your email" />
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                />
               </div>
 
               <div class="field">
                 <label>Message</label>
-                <textarea placeholder="Type your message"></textarea>
+                <textarea
+                  name="message"
+                  placeholder="Type your message"
+                ></textarea>
               </div>
 
               <button type="submit" class="button-submit">Submit</button>
@@ -427,5 +444,28 @@
       <h5>Powered by JovaTech Solutions</h5>
     </footer>
     <div class="primary-line"></div>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+      (function () {
+        emailjs.init("C6kaonIlYEyvfYkt2");
+      })();
+
+      document
+        .getElementById("joinForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          emailjs.sendForm("service_6znfo6r", "template_7v42fmq", this).then(
+            function () {
+              alert("Message sent successfully!");
+            },
+            function (error) {
+              alert("Failed to send message 😢");
+              console.error(error);
+            }
+          );
+        });
+    </script>
   </body>
 </html>
